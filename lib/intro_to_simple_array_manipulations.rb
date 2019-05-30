@@ -44,4 +44,4 @@ end
 
 def using_delete(array, index)
   array.delete[index]
-
+end
