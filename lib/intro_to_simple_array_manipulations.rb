@@ -38,11 +38,10 @@ def using_flatten(array)
   array.flatten
 end
 
-def using_delete(array, element)
-  if element == int 
-    array.delete(int, element)
-  else 
-    array.delete(element)
-  end
+def using_delete(array, string)
+  array.delete(string)
 end 
+
+def using_delete(array, index)
+  array.delete[index]
 
